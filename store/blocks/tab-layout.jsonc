@@ -1,0 +1,84 @@
+{
+  "tab-layout#top": {
+    "children": ["tab-list#top"]
+  },
+  "tab-list#top": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4"
+    ]
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "allteams",
+      "label": "Todos os times",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "deals",
+      "label": "Promoções"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-layout#footer": {
+    "children": ["tab-list#footer"],
+    "props": {
+      "blockClass": "footerTab"
+    }
+  },
+  "tab-list#footer": {
+    "children": [
+      "tab-list.item#a",
+      "tab-list.item#b",
+      "tab-list.item#c",
+      "tab-list.item#d"
+    ],
+    "props": {
+      "blockClass": "footerTab"
+    }
+  },
+  "tab-list.item#a": {
+    "props": {
+      "tabId": "profile",
+      "label": "Perfil",
+      "defaultActiveTab": true,
+      "blockClass": "footerTab"
+    }
+  },
+  "tab-list.item#b": {
+    "props": {
+      "tabId": "challenges",
+      "label": "Desafios",
+      "blockClass": "footerTab"
+    }
+  },
+  "tab-list.item#c": {
+    "props": {
+      "tabId": "store",
+      "label": "Loja",
+      "blockClass": "footerTab"
+    }
+  },
+  "tab-list.item#d": {
+    "props": {
+      "tabId": "support",
+      "label": "Suporte",
+      "blockClass": "footerTab"
+    }
+  }
+}

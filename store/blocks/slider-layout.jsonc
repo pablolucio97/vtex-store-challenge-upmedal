@@ -1,0 +1,55 @@
+{ 
+  "slider-layout#home": {
+    "children": [
+        "image#brand1",
+        "image#brand2"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+    },
+    "fullWidth" : false,
+    "arrowSize" : 2,
+    "itemsPerPage" : 1
+    }
+  },
+  "image#brand1": {
+      "props":{
+          "src" : "https://i.ibb.co/ydJCbdc/a.png"
+      }
+  },
+  "image#brand2": {
+      "props":{
+          "src" : "https://i.ibb.co/KKbGtXy/b.png"
+      }
+  },
+  "slider-layout#products": {
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+    },
+    "fullWidth" : false,
+    "arrowSize" : 2,
+    "itemsPerPage" : 1
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
+  } 
+}

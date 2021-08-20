@@ -1,0 +1,69 @@
+.imageElement {
+  border-radius: 8px;
+}
+
+.container {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoCardImage {
+  border-radius: 4px 4px 0 0;
+}
+.infoCardContainer {
+  background: rgb(31, 31, 31);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 2.4rem;
+  width: 320px;
+  
+}
+
+.infoCardTextContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  height: 100%;
+  width: 320px;
+}
+
+.infoCardImageContainer {
+  background-color: #444;
+  width: 320px;
+  padding: .4rem;
+  border-radius: 4px 4px 0 0;
+}
+
+.infoCardHeadline {
+  font-size: 2rem;
+}
+
+.shippingContainer {
+  margin-bottom: 0.48rem;
+}
+
+.searchBarInnerContainer {
+  width: 560px;
+  border: none;
+  outline: none;
+  margin: 0 8rem;
+}
+
+.suffixWrapper {
+  display: none;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #777;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  display: none;
+}
+

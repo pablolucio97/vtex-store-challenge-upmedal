@@ -1,0 +1,33 @@
+.listItem {
+  background: #222;
+  color: #fff;
+}
+
+.listItemActive :global(.vtex-button) {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.listContainer {
+  display: flex;
+  background: #222;
+  color: #fff;
+  margin: 0;
+}
+
+
+.listContainer--footerTab{
+  background: #555;
+}
+
+
+.listItem--footerTab{
+  color: #fff;
+  background: none;
+}
+
+.tabLayoutContainer--footerTab{
+  background: cyan;
+  width: 300px;
+}

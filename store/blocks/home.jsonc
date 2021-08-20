@@ -1,0 +1,65 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#top",
+      "slider-layout#home",
+      "slider-layout#products",
+      "flex-layout.row#products1",
+      "flex-layout.row#products2"
+    ]
+  },
+
+  //foram feitas diversas tentativas de uso do customQuery para exibir produtos
+  //dinamicamente, porém sem sucesso renderizei esticamente nos blocos abaixo:
+
+  "flex-layout.row#products1": {
+    "children": ["info-card#1", "info-card#2"]
+  },
+  "flex-layout.row#products2": {
+    "children": ["info-card#3", "info-card#4"]
+  },
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://i.ibb.co/v1bpRKx/1.png",
+      "isFullModeStyle": false,
+      "headline": "Tríplice Coroa",
+      "subhead": "R$ 79,90",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center",
+      "callToActionUrl": "https://developmentpablolucio--hiringcoders2021.myvtex.com/triplicecoroa/p"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://i.ibb.co/7KRXcw7/2.png",
+      "isFullModeStyle": false,
+      "headline": "King",
+      "subhead": "R$ 48,90",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center",
+      "callToActionUrl": "https://developmentpablolucio--hiringcoders2021.myvtex.com/kingchallenge/p"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "imageUrl": "https://i.ibb.co/PQb40xC/4.png",
+      "isFullModeStyle": false,
+      "headline": "Palmeiras",
+      "subhead": "R$ 75,50",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center",
+      "callToActionUrl": "https://developmentpablolucio--hiringcoders2021.myvtex.com/palmeiraspalestraitalia/p"
+    }
+  },
+  "info-card#4": {
+    "props": {
+      "imageUrl": "https://i.ibb.co/ZRj75Vz/3.png",
+      "isFullModeStyle": false,
+      "headline": "Corinthians",
+      "subhead": "R$ 69,90",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center",
+      "callToActionUrl": "https://developmentpablolucio--hiringcoders2021.myvtex.com/mosqueteiroconrinthians/p"
+    }
+  }
+}

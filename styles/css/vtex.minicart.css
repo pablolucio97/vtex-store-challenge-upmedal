@@ -1,0 +1,22 @@
+.openIconContainer{
+    width: 16vw;
+}
+
+.openIconContainer :global(.vtex-button){
+    background: transparent;
+    margin-left: 4rem;
+}
+
+.cartIcon:hover{
+    background: transparent;
+}
+
+
+.minicartSummary{
+    color: #fff;
+}
+
+.minicartProductListContainer, .closeIconContainer, .childrenContainer{
+    background: #333;
+}
+

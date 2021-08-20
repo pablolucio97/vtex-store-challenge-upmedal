@@ -1,0 +1,14 @@
+.paginationDotsContainer{
+    margin-top: 2rem;
+}
+
+.paginationDot--isActive{
+    background: #79c128;
+}
+
+.sliderLayoutContainer{
+    width: 98vw;
+    padding: 2rem 0 2.4rem;
+    background: #333;
+
+}

@@ -1,0 +1,15 @@
+.flexRow{
+    background: rgb(31, 31, 31);
+}
+
+.flexRow--footerTab{
+    background: #555;
+}
+
+.flexCol{
+    padding: .4rem;
+}
+
+.flexRowContent{
+    background: rgb(31, 31, 31);
+}

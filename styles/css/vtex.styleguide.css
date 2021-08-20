@@ -1,0 +1,14 @@
+.input, .noAppearance{
+    background: rgb(31, 31, 31);
+}
+
+.input{
+    padding: .6rem;
+}
+
+
+.borderBox{
+    border: none;
+    outline: none;
+}
+  
