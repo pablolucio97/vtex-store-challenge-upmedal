@@ -46,7 +46,7 @@
       "tab-list.item#a",
       "tab-list.item#b",
       "tab-list.item#c",
-      "tab-list.item#d"
+      "support-button"
     ],
     "props": {
       "blockClass": "footerTab"
